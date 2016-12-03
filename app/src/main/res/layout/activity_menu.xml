@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/kendaraan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="50dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mobil1"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:onClick="menuHitung"
+        android:text="Hitung CT"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:onClick="menuTentang"
+        android:text="Tentang CT"/>
+
+
+</LinearLayout>
