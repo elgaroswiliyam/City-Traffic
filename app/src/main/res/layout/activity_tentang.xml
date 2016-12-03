@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/activity_tentang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:orientation="vertical"
+        tools:context="com.ctf.citytraffic.TentangActivity">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="Rumus CT (City Traffic) adalah rumus yang dapat digunakan untuk mengukur tingkat kemacetan disuatu kota di negara. Rumus tersebut adalah :"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:textStyle="italic"
+            android:text="City Traffic (CT) = Kendaraan : (Kapasitas x Kapasitas)"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="Hasil dari rumus perhitungan CT telah memiliki kriteria/kategori dari kementrian perhubungan dan telah menetapkan kriteria tersebut. Berikut ini nilai yang ditetapkan:"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="CT kurang dari 50"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="Lancar - Sangat Bagus, tidak terjadi penumpukan kendaraan yang terjadi pada kota tersebut"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:text="CT 50 sampai 100"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="Normal – Bagus, keadaan kota yang terjadi normal dan tidak terllau mengganggu aktivitas kota"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#303F9F"
+            android:text="CT 100 sampai 150"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="Macet – Kota tersebut sedang dalam penumpukan kendaraan dimana terjadi kemacetan pada kota tersebut"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="CT lebih dari 150"/>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:text="Sangat Macet – Sebaiknya segera mencari jalan lain menuju tempat tujuan agar terhindar dari kemacetan kota"/>
+
+    </LinearLayout>
+</ScrollView>
